@@ -56,7 +56,7 @@ RTC_DS3231 rtc;
 
 
 const char* daysOfTheWeek[] =
- { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"}; //days of the week
+ { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"}; //days of the week
 const char* monthsOfTheYear[] =
  {"Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov" }; //days of the week
 
