@@ -45,7 +45,7 @@ By editing respective parameters to method calls in this program, the display ca
 RTC_DS3231 rtc;
 
 // Define DHTPin:
-#define DHTPin 4 // Digital Humidity and Temperature sensor is on this pin
+#define DHTPin 2 // Digital Humidity and Temperature sensor is on this pin
 
 // Define SDA and SCL pin from LCD:
 #define SDAPin 20 // Data pin
