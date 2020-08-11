@@ -7,7 +7,7 @@ If the object is more than 25 cms away from the Ultrasonic distance sensor,
 
 In either case, on the LCD line 2, display distance in CMs followed by " cm(s)."
 
-To measure distances accurately using the ultra sonic pulse, find the temperature using DHT11 sensor and calculate the speed of sound () at that temperature
+To measure distances accurately using the ultra sonic pulse, find the temperature using DHT11 sensor and calculate the speed of sound at that temperature
 
 Hardware used
  - 1602 LCD with I2c
