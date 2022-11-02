@@ -17,9 +17,9 @@ Reference - https://www.pragmaticlinux.com/2021/01/install-eclipse-ide-with-cdt-
 
 `sudo nano /usr/share/applications/eclipse.desktop`
 
-`ls -l /dev/ttyACM0` 
+`ls -l /dev/ttyACM0` ????
 
-`sudo usermod -a -G dialout $USER`
+`sudo usermod -a -G dialout $USER` ????
 
 `reboot`
 
