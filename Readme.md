@@ -17,11 +17,18 @@ Reference - https://www.pragmaticlinux.com/2021/01/install-eclipse-ide-with-cdt-
 
 `sudo nano /usr/share/applications/eclipse.desktop`
 
-`ls -l /dev/ttyACM0` ????
+### Ports
 
-`sudo usermod -a -G dialout $USER` ????
+If you connect Arduino Mega, then it will be listed as `/dev/ttyACM0` . Check it by listing `ls -l /dev/ttyACM0` . 
 
-`reboot`
+If you connect ESP32, it will be listed as `/dev/ttyUSB0` . Check it by listing `ls -l /dev/ttyUSB0` . 
+
+Refer [What is the difference between devttyUSBx and devttyACMx?](https://rfc1149.net/blog/2013/03/05/what-is-the-difference-between-devttyusbx-and-devttyacmx/) 
+
+
+`sudo usermod -a -G dialout $USER` . Refer [Adding yourself to the dialout group](https://askubuntu.com/questions/58119/changing-permissions-on-serial-port)
+
+`reboot` (or logout and login)
 
 ### Install Sloeber, the Arduino Plugin for Eclipse from Eclipse Marketplace
 
