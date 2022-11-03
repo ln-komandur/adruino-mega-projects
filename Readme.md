@@ -41,3 +41,11 @@ If you connect ESP32, it will be listed as `/dev/ttyUSB0` . Check it by listing 
 1.  [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html)
 1.  [ESP-IDF Releases](https://github.com/espressif/esp-idf/releases) which has commands like `python3 -version` , 
 `git clone -b v4.2 --recursive https://github.com/espressif/esp-idf.git esp-idf-v4.2` , `which git` , `which python3` , `whereis python3`
+
+
+
+
+## Programming ESP32
+
+#### References
+1. [Kolban's book on ESP32](https://archive.org/details/kolban-ESP32)
